@@ -1,0 +1,12 @@
+[package]
+name = 'helloextendr'
+publish = false
+version = '0.3.0'
+edition = '2021'
+
+[lib]
+crate-type = [ 'staticlib' ]
+name = 'helloextendr'
+
+[dependencies]
+extendr-api = '*'
